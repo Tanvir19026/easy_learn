@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cEight">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="391dp"
+        android:layout_height="630dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="92dp"
+        android:padding="20dp"
+        android:textStyle="bold"
+        app:cardBackgroundColor="#38c7bd"
+        app:cardCornerRadius="20dp">
+
+        <Button
+            android:id="@+id/eightmath"
+            android:layout_width="230dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/subdesign"
+            android:drawableLeft="@drawable/math"
+            android:text="সাধারণ গণিত"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:backgroundTint="@null">
+
+        </Button>
+
+        <Button
+            android:id="@+id/eightbangla"
+            android:layout_width="230dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="90dp"
+            android:background="@drawable/subdesign"
+            android:drawableLeft="@drawable/bangla"
+            android:text="বাংলা ১ম পত্র"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:backgroundTint="@null">
+
+        </Button>
+
+        <Button
+            android:id="@+id/eightbangla2"
+            android:layout_width="230dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="165dp"
+            android:background="@drawable/subdesign"
+            android:drawableLeft="@drawable/bansec"
+            android:text="বাংলা ২য় পত্র"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:backgroundTint="@null">
+
+        </Button>
+
+        <Button
+            android:id="@+id/eightenglish"
+            android:layout_width="230dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="240dp"
+            android:background="@drawable/subdesign"
+            android:drawableLeft="@drawable/eng"
+            android:text="English 1st paper"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            app:backgroundTint="@null">
+
+        </Button>
+
+        <Button
+            android:id="@+id/eightenglish2"
+            android:layout_width="230dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="315dp"
+            android:background="@drawable/subdesign"
+            android:drawableLeft="@drawable/engsec"
+            android:text="English 2nd paper"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            app:backgroundTint="@null">
+
+        </Button>
+
+        <Button
+            android:id="@+id/eightsomaj"
+            android:layout_width="230dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="390dp"
+            android:background="@drawable/subdesign"
+            android:drawableLeft="@drawable/somaz"
+            android:text="বাংলাদেশ ও বিশ্ব পরিচয়"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:backgroundTint="@null">
+
+        </Button>
+
+        <Button
+            android:id="@+id/eightict"
+            android:layout_width="230dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="465dp"
+            android:background="@drawable/subdesign"
+            android:drawableLeft="@drawable/ct"
+            android:text="তথ্য ও যোগাযোগ প্রযুক্তি"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:backgroundTint="@null">
+
+        </Button>
+
+        <Button
+            android:id="@+id/eightbiggan"
+            android:layout_width="230dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="540dp"
+            android:background="@drawable/subdesign"
+            android:drawableLeft="@drawable/sixscience"
+            android:text="সাধারণ বিজ্ঞান"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:backgroundTint="@null">
+
+        </Button>
+
+
+    </androidx.cardview.widget.CardView>
+    <RelativeLayout
+        android:id="@+id/homeMain"
+        android:layout_width="205dp"
+        android:layout_height="39dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="55dp"
+        android:layout_marginBottom="1dp"
+        android:background="#E3E7EC">
+
+        <ImageView
+            android:id="@+id/homeBtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="120dp"
+            android:src="@drawable/home" />
+
+        <TextView
+            android:id="@+id/home1"
+            android:layout_width="51dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="60dp"
+            android:layout_marginBottom="9dp"
+            android:text="Home"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"></TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/proMain"
+        android:layout_width="205dp"
+        android:layout_height="39dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="55dp"
+        android:layout_marginBottom="1dp"
+        android:background="#E3E7EC">
+
+        <ImageView
+            android:id="@+id/proBtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="109dp"
+            android:src="@drawable/pro1" />
+
+
+        <TextView
+            android:id="@+id/pro1"
+            android:layout_width="51dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="58dp"
+            android:layout_marginBottom="6dp"
+            android:text="Profile"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </RelativeLayout>
+
+</RelativeLayout>

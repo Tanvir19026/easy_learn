@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cOneActivity"
+    android:background="#C7C7C7"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"
+        android:text="Subjects"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:textStyle="bold"
+
+        >
+
+    </TextView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="391dp"
+        android:layout_height="370dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginRight="20dp"
+        android:padding="20dp"
+        android:textStyle="bold"
+        app:cardBackgroundColor="#E5E5E5"
+        app:cardCornerRadius="30dp">
+
+        <Button
+            android:id="@+id/oneMath"
+            android:layout_width="230dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/subdesign"
+            android:text="প্রাথমিক গণিত"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:backgroundTint="@null"
+            android:drawableLeft="@drawable/math">
+
+        </Button>
+
+        <Button
+            android:id="@+id/bangla"
+            android:layout_width="230dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="140dp"
+            android:background="@drawable/subdesign"
+            android:text="বাংলা"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:backgroundTint="@null"
+            android:drawableLeft="@drawable/bangla">
+
+        </Button>
+
+        <Button
+            android:id="@+id/oneEnglish"
+            android:layout_width="230dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="250dp"
+            android:background="@drawable/subdesign"
+            android:text="English"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:backgroundTint="@null"
+            android:drawableLeft="@drawable/eng">
+
+        </Button>
+    </androidx.cardview.widget.CardView>
+
+
+    <RelativeLayout
+        android:id="@+id/homeMain"
+        android:layout_width="205dp"
+        android:layout_height="39dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="55dp"
+        android:layout_marginBottom="1dp"
+        android:background="#E3E7EC">
+
+        <ImageView
+            android:id="@+id/homeBtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="120dp"
+            android:src="@drawable/home" />
+
+        <TextView
+            android:id="@+id/home1"
+            android:layout_width="51dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="60dp"
+            android:layout_marginBottom="9dp"
+            android:text="Home"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"></TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/proMain"
+        android:layout_width="205dp"
+        android:layout_height="39dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="55dp"
+        android:layout_marginBottom="1dp"
+        android:background="#E3E7EC">
+
+        <ImageView
+            android:id="@+id/proBtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="109dp"
+            android:src="@drawable/pro1" />
+
+
+        <TextView
+            android:id="@+id/pro1"
+            android:layout_width="51dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="58dp"
+            android:layout_marginBottom="6dp"
+            android:text="Profile"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </RelativeLayout>
+
+
+</RelativeLayout>

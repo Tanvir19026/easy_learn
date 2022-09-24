@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cFive">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:foreground="?selectableItemBackground"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="50dp"
+        app:cardUseCompatPadding="true"
+        tools:context=".cHscActivity">
+
+        <LinearLayout
+
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#06475A"
+
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="Select Your Group"
+
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+
+
+                >
+
+            </TextView>
+
+            <Button
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="25dp"
+                android:background="@drawable/hscbtn"
+
+                android:drawableLeft="@drawable/lal_24"
+                android:text="Science"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:backgroundTint="@null">
+
+            </Button>
+
+            <Button
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="25dp"
+                android:background="@drawable/hscbtn"
+                android:drawableLeft="@drawable/nil_24"
+                android:text="Business"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:backgroundTint="@null">
+
+            </Button>
+
+            <Button
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="25dp"
+                android:background="@drawable/hscbtn"
+                android:drawableLeft="@drawable/arts"
+                android:text="Arts"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:backgroundTint="@null">
+
+            </Button>
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <RelativeLayout
+        android:id="@+id/homeMain"
+        android:layout_width="205dp"
+        android:layout_height="39dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="55dp"
+        android:layout_marginBottom="1dp"
+        android:background="#E3E7EC">
+
+        <ImageView
+            android:id="@+id/homeBtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="120dp"
+            android:src="@drawable/home" />
+
+        <TextView
+            android:id="@+id/home1"
+            android:layout_width="51dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="60dp"
+            android:layout_marginBottom="9dp"
+            android:text="Home"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"></TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/proMain"
+        android:layout_width="205dp"
+        android:layout_height="39dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="55dp"
+        android:layout_marginBottom="1dp"
+        android:background="#E3E7EC">
+
+        <ImageView
+            android:id="@+id/proBtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="109dp"
+            android:src="@drawable/pro1" />
+
+
+        <TextView
+            android:id="@+id/pro1"
+            android:layout_width="51dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="58dp"
+            android:layout_marginBottom="6dp"
+            android:text="Profile"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </RelativeLayout>
+
+</RelativeLayout>
+
+
+

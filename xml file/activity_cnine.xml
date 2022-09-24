@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    app:cardElevation="40dp"
+    android:foreground="?selectableItemBackground"
+    app:cardUseCompatPadding="true"
+
+    tools:context=".cNine"
+
+    app:cardCornerRadius="10dp"
+
+
+
+>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Select Your Group"
+            android:background="@color/white"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+
+           >
+
+        </TextView>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Science"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            app:backgroundTint="@null"
+            android:layout_margin="25dp"
+            android:background="@drawable/button_design"
+            android:drawableLeft="@drawable/lal_24"
+            >
+
+        </Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Business"
+            android:textSize="20dp"
+            android:layout_margin="25dp"
+            android:textStyle="italic"
+            app:backgroundTint="@null"
+            android:background="@drawable/button_design"
+            android:drawableLeft="@drawable/nil_24">
+
+        </Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Arts"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            app:backgroundTint="@null"
+            android:layout_margin="25dp"
+            android:background="@drawable/button_design"
+            android:drawableLeft="@drawable/arts"
+            >
+
+        </Button>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>
+
+
+
+
+
+
+

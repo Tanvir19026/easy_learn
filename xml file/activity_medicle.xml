@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="391dp"
+        android:layout_height="520dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginRight="20dp"
+        android:padding="20dp"
+        android:textStyle="bold"
+        app:cardBackgroundColor="#38c7bd"
+        android:layout_centerInParent="true"
+        app:cardCornerRadius="20dp">
+
+
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="280dp"
+            android:layout_height="70dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/subdesign"
+            android:drawableLeft="@drawable/pdficon"
+            android:text="physics 1st and 2nd "
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:backgroundTint="@null">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="280dp"
+            android:layout_height="70dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="125dp"
+            android:background="@drawable/subdesign"
+            android:drawableLeft="@drawable/pdficon"
+            android:text="chemistry 1st and 2nd"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:backgroundTint="@null">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="280dp"
+            android:layout_height="70dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="225dp"
+            android:background="@drawable/subdesign"
+            android:drawableLeft="@drawable/pdficon"
+            android:textColor="@color/black"
+            android:text="Biology 1st and 2nd"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:backgroundTint="@null">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="280dp"
+            android:layout_height="70dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="325dp"
+            android:background="@drawable/subdesign"
+            android:drawableLeft="@drawable/pdficon"
+            android:textColor="@color/black"
+            android:text="English      "
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:backgroundTint="@null">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="280dp"
+            android:layout_height="70dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="425dp"
+            android:background="@drawable/subdesign"
+            android:drawableLeft="@drawable/pdficon"
+            android:textColor="@color/black"
+            android:text="general knowledge"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:backgroundTint="@null">
+
+        </Button>
+
+
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <RelativeLayout
+        android:id="@+id/homeMain"
+        android:layout_width="205dp"
+        android:layout_height="39dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="55dp"
+        android:layout_marginBottom="1dp"
+        android:background="#E3E7EC">
+
+        <ImageView
+            android:id="@+id/homeBtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="120dp"
+            android:src="@drawable/home" />
+
+        <TextView
+            android:id="@+id/home1"
+            android:layout_width="51dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="60dp"
+            android:layout_marginBottom="9dp"
+            android:text="Home"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"></TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/proMain"
+        android:layout_width="205dp"
+        android:layout_height="39dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="55dp"
+        android:layout_marginBottom="1dp"
+        android:background="#E3E7EC">
+
+        <ImageView
+            android:id="@+id/proBtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="109dp"
+            android:src="@drawable/pro1" />
+
+
+        <TextView
+            android:id="@+id/pro1"
+            android:layout_width="51dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="58dp"
+            android:layout_marginBottom="6dp"
+            android:text="Profile"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </RelativeLayout>
+
+
+</RelativeLayout>

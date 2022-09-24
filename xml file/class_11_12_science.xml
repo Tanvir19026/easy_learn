@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="80dp"
+        android:text="Subjects"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+
+        >
+
+    </TextView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="377dp"
+        android:layout_height="625dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="145dp"
+        android:layout_marginRight="20dp"
+        android:padding="20dp"
+        android:textStyle="bold"
+        app:cardBackgroundColor="#38c7bd"
+        app:cardCornerRadius="20dp">
+
+
+        <Button
+            android:id="@+id/hscphysics1st"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/subdesign"
+            android:drawableLeft="@drawable/ct"
+            android:text="পদার্থবিজ্ঞান ১ম পত্র"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            app:backgroundTint="@null">
+
+        </Button>
+
+        <Button
+            android:id="@+id/hscphysics2nd"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/subdesign"
+            android:drawableLeft="@drawable/ct"
+            android:text="পদার্থবিজ্ঞান ২য় পত্র"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            app:backgroundTint="@null">
+
+        </Button>
+
+        <Button
+            android:id="@+id/hscchemistry1st"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="175dp"
+            android:background="@drawable/subdesign"
+            android:drawableLeft="@drawable/sixscience"
+            android:text="রসায়ন ১ম পত্র "
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:backgroundTint="@null">
+
+        </Button>
+
+        <Button
+            android:id="@+id/hscchemistry2nd"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="250dp"
+            android:background="@drawable/subdesign"
+            android:drawableLeft="@drawable/sixscience"
+            android:text="রসায়ন ২য় পত্র "
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:backgroundTint="@null">
+
+        </Button>
+
+        <Button
+            android:id="@+id/hscbiology1st"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="325dp"
+            android:background="@drawable/subdesign"
+            android:drawableLeft="@drawable/sos"
+            android:text="জীববিজ্ঞান ১ম পত্র"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            app:backgroundTint="@null">
+
+        </Button>
+
+        <Button
+            android:id="@+id/hscbiology2nd"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="400dp"
+            android:background="@drawable/subdesign"
+            android:drawableLeft="@drawable/sos"
+            android:text="জীববিজ্ঞান ২য় পত্র"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            app:backgroundTint="@null">
+
+        </Button>
+
+        <Button
+            android:id="@+id/hschighermath1st"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="475dp"
+            android:background="@drawable/subdesign"
+            android:drawableLeft="@drawable/sos"
+            android:text="উচ্চতর গণিত ১ম পত্র"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:backgroundTint="@null">
+
+        </Button>
+
+        <Button
+            android:id="@+id/hschighermath2nd"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="550dp"
+            android:background="@drawable/subdesign"
+            android:drawableLeft="@drawable/sos"
+            android:text="উচ্চতর গণিত ২য় পত্র"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:backgroundTint="@null">
+
+        </Button>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <RelativeLayout
+        android:id="@+id/homeMain"
+        android:layout_width="205dp"
+        android:layout_height="39dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="55dp"
+        android:layout_marginBottom="1dp"
+        android:background="#E3E7EC">
+
+        <ImageView
+            android:id="@+id/homeBtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="120dp"
+            android:src="@drawable/home" />
+
+        <TextView
+            android:id="@+id/home1"
+            android:layout_width="51dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="60dp"
+            android:layout_marginBottom="9dp"
+            android:text="Home"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"></TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/proMain"
+        android:layout_width="205dp"
+        android:layout_height="39dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="55dp"
+        android:layout_marginBottom="1dp"
+        android:background="#E3E7EC">
+
+        <ImageView
+            android:id="@+id/proBtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="109dp"
+            android:src="@drawable/pro1" />
+
+
+        <TextView
+            android:id="@+id/pro1"
+            android:layout_width="51dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="58dp"
+            android:layout_marginBottom="6dp"
+            android:text="Profile"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

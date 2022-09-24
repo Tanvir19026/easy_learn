@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activityone"
+
+    android:background="#FDB77E"
+
+>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:text="What is your choice?"
+            android:textColor="@color/white"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_marginTop="70dp"
+            android:id="@+id/oneToTwelve"
+            android:layout_width="330dp"
+            android:layout_height="74dp"
+            android:textSize="20dp"
+            android:backgroundTint="#00695C"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+
+            android:background="@drawable/choice_design"
+            android:drawableLeft="@drawable/ic_baseline_class_24"
+            android:drawableRight="@drawable/ic_baseline_class_24"
+            android:text="class 1 to 12"
+            android:textStyle="bold"
+            app:backgroundTint="@null" />
+
+        <Button
+            android:id="@+id/admissionTest"
+            android:layout_marginTop="70dp"
+            android:backgroundTint="@color/background"
+            android:textSize="20dp"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="330dp"
+            android:layout_height="74dp"
+            android:layout_gravity="center"
+            android:layout_below="@+id/choice"
+
+            android:background="@drawable/choice_design"
+            android:drawableLeft="@drawable/ic_baseline_class_24"
+            android:drawableRight="@drawable/ic_baseline_class_24"
+            android:text="Admission Test"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:backgroundTint="@null"></Button>
+
+        <Button
+            android:id="@+id/jobPreperation"
+            android:layout_width="330dp"
+            android:layout_height="74dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:backgroundTint="@color/purple_700"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_below="@+id/choice"
+
+            android:background="@drawable/choice_design"
+            android:drawableLeft="@drawable/ic_baseline_class_24"
+            android:drawableRight="@drawable/ic_baseline_class_24"
+            android:text="Job preparation"
+            android:textStyle="bold"
+            app:backgroundTint="@null"></Button>
+
+        <Button
+            android:id="@+id/liveclass1"
+            android:layout_marginTop="70dp"
+            android:textColor="@color/background"
+            android:backgroundTint="@color/teal_200"
+            android:textSize="20dp"
+            android:layout_width="330dp"
+            android:layout_height="74dp"
+            android:layout_gravity="center"
+            android:layout_below="@+id/choice"
+
+            android:background="@drawable/choice_design"
+            android:drawableLeft="@drawable/ic_baseline_class_24"
+            android:drawableRight="@drawable/ic_baseline_class_24"
+            android:text="Live Class"
+            android:textStyle="bold"
+            app:backgroundTint="@null"></Button>
+
+        <Button
+            android:id="@+id/quizstart2"
+            android:layout_width="330dp"
+            android:layout_marginTop="70dp"
+            android:backgroundTint="#FF8F00"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_height="74dp"
+            android:layout_gravity="center"
+            android:layout_below="@+id/choice"
+
+            android:background="@drawable/choice_design"
+            android:drawableLeft="@drawable/ic_baseline_class_24"
+            android:drawableRight="@drawable/ic_baseline_class_24"
+            android:text="Quiz Test"
+            android:textStyle="bold"
+            app:backgroundTint="@null"></Button>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

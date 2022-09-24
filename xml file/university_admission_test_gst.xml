@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cEight">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:text="Choose your option"
+
+        >
+
+    </TextView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="391dp"
+        android:layout_height="690dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="20dp"
+        android:padding="20dp"
+        android:textStyle="bold"
+        app:cardBackgroundColor="#38c7bd"
+        app:cardCornerRadius="20dp">
+
+        <Button
+            android:id="@+id/gsta"
+            android:layout_width="280dp"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/subdesign"
+            android:drawableLeft="@drawable/admissionengineering"
+            android:text="UNIt - A   "
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:backgroundTint="@null">
+
+        </Button>
+
+        <Button
+            android:id="@+id/gstb"
+            android:layout_width="280dp"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="135dp"
+            android:background="@drawable/subdesign"
+            android:drawableLeft="@drawable/unitb"
+            android:text="unit - b   "
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:backgroundTint="@null">
+
+        </Button>
+
+
+        <Button
+            android:id="@+id/gstc"
+            android:layout_width="280dp"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="235dp"
+            android:background="@drawable/subdesign"
+            android:drawableLeft="@drawable/unitc"
+            android:text="unit - c   "
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:backgroundTint="@null">
+
+        </Button>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>

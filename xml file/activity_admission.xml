@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <androidx.cardview.widget.CardView
+        android:layout_width="391dp"
+        android:layout_height="690dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="20dp"
+        android:padding="20dp"
+        android:textStyle="bold"
+        app:cardBackgroundColor="#38c7bd"
+        app:cardCornerRadius="20dp">
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/subdesign"
+        android:text="Engineering">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="125dp"
+        android:background="@drawable/subdesign"
+        android:text="Medicle">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="210dp"
+        android:background="@drawable/subdesign"
+        android:text="general">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="295dp"
+        android:background="@drawable/subdesign"
+        android:text="GST">
+
+    </Button>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</RelativeLayout>

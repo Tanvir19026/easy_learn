@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cThreeActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="65dp"
+        android:text="Subjects"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:textStyle="bold"
+
+        >
+
+    </TextView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="391dp"
+        android:layout_height="520dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginRight="20dp"
+        android:padding="20dp"
+        android:textStyle="bold"
+        app:cardBackgroundColor="#628ef5"
+        app:cardCornerRadius="20dp">
+
+        <Button
+            android:id="@+id/ieltslistening"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/subdesign"
+            android:drawableLeft="@drawable/math"
+            android:text="listening "
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:backgroundTint="@null">
+
+        </Button>
+
+        <Button
+            android:id="@+id/ieltsspeaking"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="125dp"
+            android:background="@drawable/subdesign"
+            android:drawableLeft="@drawable/bangla"
+            android:text="speaking   "
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:backgroundTint="@null">
+
+        </Button>
+
+        <Button
+            android:id="@+id/ieltswritten"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="225dp"
+            android:background="@drawable/subdesign"
+            android:drawableLeft="@drawable/eng"
+            android:text="written    "
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:backgroundTint="@null">
+
+        </Button>
+
+        <Button
+            android:id="@+id/ieltsviva"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="325dp"
+            android:background="@drawable/subdesign"
+            android:drawableLeft="@drawable/eng"
+            android:text="viva    "
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:backgroundTint="@null">
+
+        </Button>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <Button
+        android:layout_width="211dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="818dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/line"
+        android:backgroundTint="@null"
+        android:drawableLeft="@drawable/home3"
+        android:text="Home"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:backgroundTint="@null"></Button>
+
+    <Button
+        android:layout_width="211dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="812dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/line"
+        android:backgroundTint="@null"
+        android:drawableLeft="@drawable/home3"
+        android:text="Home"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:backgroundTint="@null">
+
+    </Button>
+
+</RelativeLayout>

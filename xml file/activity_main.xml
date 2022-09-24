@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="150dp"
+        android:gravity="center"
+        android:text="Welcome to Study Helper"
+        android:textColor="@color/black"
+        android:textSize="28dp"
+        android:textStyle="bold"
+
+        >
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="250dp"
+        android:layout_height="210dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/log"></ImageView>
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="287dp"
+        android:layout_height="64dp"
+        android:layout_below="@+id/logo"
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="78dp"
+        android:layout_marginEnd="50dp"
+
+        android:layout_marginBottom="186dp"
+        android:background="@drawable/button_design"
+        android:drawableLeft="@drawable/ic_baseline_next_plan_24"
+        android:drawableRight="@drawable/ic_baseline_next_plan_24"
+        android:gravity="center"
+
+        android:padding="5dp"
+        android:text="start"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:backgroundTint="@null">
+
+    </Button>
+
+</RelativeLayout>
